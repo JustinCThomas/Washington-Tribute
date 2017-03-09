@@ -1,23 +1,23 @@
 
 body {
   background-color: azure;
-  position: relative;
   text-align: center;
 }
 
 header {
   width: 60%;
   margin: auto;
+  display: inline-block;
 }
 
 a {
   text-decoration: none;
+  cursor: pointer;
 }
 
 ul {
   margin: auto;
   padding: 10px;
-  list-style-position: inside;
   width: 50%;
 }
 
@@ -26,18 +26,42 @@ li {
   text-align: left;
 }
 
-a:visited {
+h2 a:visited {
   color: blue;
+}
+
+#Washington {
+  width: 60%;
+  min-width: 300px;
+  margin: 10px;
 }
 
 #flag1 {
   height: 150px;
-  width: 300px;
+  width: 15%;
   float: left;
 }
 
 #flag2 {
   height: 150px;
-  width: 300px;
+  width: 15%;
   float: right;
+}
+
+footer {
+  font-size: 3.5em;
+  text-align: center;
+}
+
+footer a {
+  color: black;
+}
+
+footer a:visited {
+  color: black;
+}
+
+footer a:hover {
+  color: white;
+  background-color: navy;
 }
