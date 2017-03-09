@@ -1,0 +1,43 @@
+
+body {
+  background-color: azure;
+  position: relative;
+  text-align: center;
+}
+
+header {
+  width: 60%;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: auto;
+  padding: 10px;
+  list-style-position: inside;
+  width: 50%;
+}
+
+li {
+  padding: 2px;
+  text-align: left;
+}
+
+a:visited {
+  color: blue;
+}
+
+#flag1 {
+  height: 150px;
+  width: 300px;
+  float: left;
+}
+
+#flag2 {
+  height: 150px;
+  width: 300px;
+  float: right;
+}
